@@ -1,0 +1,32 @@
+body{
+    background-color:#23001E;
+    color: #A4A9AD;
+    font-family: sans-serif;
+    font-size: x-large;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+td, th {
+   border: 1px solid #dddddd;
+   padding: 8px;
+   text-align: left;
+}
+button{
+    margin-top: 50px !important;
+    margin-left: 43px;
+    height: 40px;
+    width: 150px;
+    background-color:#EF5B5B;
+    color: #d4d7d9;
+    font-family: sans-serif;
+    font-size: large;
+    border: 0.3px  #A4A9AD;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+}

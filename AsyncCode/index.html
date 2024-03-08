@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async code</title>
+</head>
+<body>
+    <H1>My Code</H1>
+    <button id="stop">STOP</button>
+
+    <Script>
+        let sayBhojraj = function(){
+            console.log('Bhojraj');
+        };
+        let changeHeading = function(){
+            document.querySelector('h1').
+            innerHTML = 'New Heading';
+        }
+        let changeMe = setTimeout(changeHeading,2000);
+
+        document.getElementById('stop').addEventListener('click',function(){
+            clearTimeout(changeMe);
+            console.log('STOPPED');
+        })
+
+
+    </Script>
+</body>
+</html>

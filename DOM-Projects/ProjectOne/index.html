@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Project</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    h1{
+        color: rgb(31, 31, 31);
+        font-weight: 900;
+        font-size: 480%;
+    }
+    .bt-div{
+        display: flex;
+        justify-content: space-around;
+    }
+    .button{
+        height: 250px;
+        width: 200px;
+        margin: 10px;
+        border: 2px solid rgb(107, 106, 106);
+    }
+    #columbiaBlue{
+        background-color: #BFD7EA;
+    }
+    #cadetGray{
+        background-color: #91AEC1;
+    }
+    #airForceBlue{
+        background-color: #508CA4;
+    }
+    #seaGreen{
+        background-color: #0A8754;
+    }
+    
+</style>
+<body>
+    <div class="canvas">
+        <h1>Color scheme switcher</h1>
+        <div class="bt-div">
+            
+             <span class="button" id="columbiaBlue"></span>
+             <span class="button" id="cadetGray"></span>
+             <span class="button" id="airForceBlue"></span>
+             <span class="button" id="seaGreen"></span>
+        </div>
+        <h2>
+            Try clicking on one of the colors above
+            <span>to change the background color of this page</span>
+        </h2>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
